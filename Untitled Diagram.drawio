@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T06:58:59.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Oea4cYfjW98f3K6wY6rM" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T10:46:15.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bQukcSDLXVDGIDdnuqn8" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1077" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -105,8 +105,8 @@
         <mxCell id="Gm9q5PBNxo7W93uRg2Yn-38" value="&lt;span&gt;计算用户还款各费用项应进入的子商户号&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-39" value="三种数据的金额获取：&lt;br&gt;1、代偿前：repay_order_balance&lt;br&gt;2、已代偿：compensatory_amount_detail&lt;br&gt;3、信托分配：debt_transfer_amount_detail" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="1040" width="250" height="160" as="geometry" />
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-39" value="三种类型数据的金额 都用repay_order_balance where PLAN_ORDER_TYPE=base计算" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="1040" width="370" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Gm9q5PBNxo7W93uRg2Yn-41" value="" style="endArrow=none;dashed=1;html=1;entryX=-0.015;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gm9q5PBNxo7W93uRg2Yn-38" target="Gm9q5PBNxo7W93uRg2Yn-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
