@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T10:46:15.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bQukcSDLXVDGIDdnuqn8" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T14:31:41.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BGWx9vQUu2x4TNnYWRHV" version="14.8.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2545" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,7 +26,7 @@
         <mxCell id="n5MdxSmS_SGiVDrM9WLQ-6" value="循环处理单条数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="n5MdxSmS_SGiVDrM9WLQ-8" value="fund侧数据库，里面需要提供&lt;br&gt;1、loan_repay_plan_extends.tradeId&lt;br&gt;2、支付通道&lt;br&gt;3、主商户&lt;br&gt;4、子商户&lt;br&gt;5、金额&lt;br&gt;6、对账日期" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="n5MdxSmS_SGiVDrM9WLQ-8" value="fund侧需要提供&lt;br&gt;1、loan_repay_plan_extends.tradeId&lt;br&gt;2、支付通道&lt;br&gt;3、主商户&lt;br&gt;4、子商户&lt;br&gt;5、金额&lt;br&gt;6、对账日期" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="85" width="280" height="190" as="geometry" />
         </mxCell>
         <mxCell id="n5MdxSmS_SGiVDrM9WLQ-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n5MdxSmS_SGiVDrM9WLQ-3" target="n5MdxSmS_SGiVDrM9WLQ-8" edge="1">
@@ -43,8 +43,8 @@
         <mxCell id="Gm9q5PBNxo7W93uRg2Yn-3" value="根据tradeId50编号拿到还款计划等信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-6" value="业务侧需要判断是主交易号还是子交易号需要额外判断:&lt;br&gt;判断逻辑为：先查询repay_order如果有则为主交易号，再查repay_oreder_detail如果有则为子交易号。" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="385" width="330" height="150" as="geometry" />
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-6" value="1、业务侧需要判断是主交易号还是子交易号需要额外判断:&lt;br&gt;判断逻辑为：先查询repay_order如果有则为主交易号，再查repay_oreder_detail如果有则为子交易号。&lt;br&gt;2、还款类型的取值&lt;span&gt;	&lt;/span&gt;码值：提前还款、提前结清、正常还款、逾期还款、部分还款&lt;br&gt;判断逻辑：loan_repay_plan.EARLY_FLAG&lt;br&gt;字段释义参考：RepayEarlyFlagTypeEnum" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="290" width="570" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Gm9q5PBNxo7W93uRg2Yn-8" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gm9q5PBNxo7W93uRg2Yn-3" target="Gm9q5PBNxo7W93uRg2Yn-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -52,8 +52,8 @@
             <mxPoint x="500" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2种主状态：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、代偿前&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、代偿后&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;代偿后又分为2种子情况：已代偿、信托分配。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;三种状态的判断逻辑为：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.1查询代偿费用：compensatory_detail表，存在则为代偿&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.2查询信托分配：debt_transfer_detail表，存在则为信托分配&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.3其余的则为代偿前正常状态。&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="552.5" width="380" height="187.5" as="geometry" />
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2种主状态：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、代偿前&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、代偿后&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;代偿后又分为2种子情况：已代偿、信托分配。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;三种状态的判断逻辑为：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、查询代偿费用和信托分配：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.1 select * from compensatory_detail where&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;COMPENSATORY_TYPE &amp;lt;&amp;gt; 05 and&amp;nbsp; DEL_FLAG=0。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;存在则判断COMPENSATORY_TYPE，=08是信托分配，!=08则是代偿。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.2&amp;nbsp;&lt;/span&gt;&lt;span&gt;select * from debt_transfer_detail&amp;nbsp;where&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;COMPENSATORY_TYPE &amp;lt;&amp;gt; 05 and&amp;nbsp; DEL_FLAG=0。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;存在则判断COMPENSATORY_TYPE，=08是信托分配，!=08则是代偿。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、其余的则为代偿前正常状态。&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="552.5" width="440" height="267.5" as="geometry" />
         </mxCell>
         <mxCell id="Gm9q5PBNxo7W93uRg2Yn-11" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,6 +122,30 @@
             <mxPoint x="460" y="980" as="sourcePoint" />
             <mxPoint x="510" y="930" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-48" value="疑问点1：&lt;br&gt;fund提供文件还是业务侧直接查库" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="100" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-49" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gm9q5PBNxo7W93uRg2Yn-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="230" as="sourcePoint" />
+            <mxPoint x="310" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-50" value="调取&lt;b&gt;财务侧 接口&lt;/b&gt;，一次性获取所有配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-51" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gm9q5PBNxo7W93uRg2Yn-50" target="Gm9q5PBNxo7W93uRg2Yn-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1010" as="sourcePoint" />
+            <mxPoint x="540" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gm9q5PBNxo7W93uRg2Yn-52" target="Gm9q5PBNxo7W93uRg2Yn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gm9q5PBNxo7W93uRg2Yn-52" value="疑问点2：&lt;br&gt;fund侧能否提供 对账的50编号 是主/子交易号" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-110" y="300" width="230" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
