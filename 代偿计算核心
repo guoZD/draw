@@ -1,1 +1,202 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T15:32:09.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.0" etag="xqcmtLHNQNnWtASQnlYu" type="github"><diagram id="anomAw9WlOCrMIiNeHkr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-31T16:27:06.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="fis9X3oGuxwN2Rzngj0c" version="15.6.0" type="github">
+  <diagram id="anomAw9WlOCrMIiNeHkr" name="Page-1">
+    <mxGraphModel dx="946" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WK9klfIUf86y4-FWAi0W-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-2" value="代偿计算核心方法" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-8" target="WK9klfIUf86y4-FWAi0W-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-8" value="数据筛选" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、筛选资产到期数据&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、根据配置筛选是否包含线下还款&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、根据配置筛选是否包含提前结清&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4、是否在规则范围内的时间&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;dashed=1;" edge="1" source="WK9klfIUf86y4-FWAi0W-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-16" value="&lt;div style=&quot;text-align: left&quot;&gt;1、设置代偿时间&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、设置状态&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3、设置代偿原因&lt;span&gt;等&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="155" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-16" target="WK9klfIUf86y4-FWAi0W-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-15" target="WK9klfIUf86y4-FWAi0W-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-15" value="数据填充" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-22" target="WK9klfIUf86y4-FWAi0W-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-22" value="金额信息填充" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-24" target="WK9klfIUf86y4-FWAi0W-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-24" value="&lt;div&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; style=&quot;font-size: 12px&quot;&gt;调取逾期实时计算 填充逾期相关费用&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-26" target="WK9klfIUf86y4-FWAi0W-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-26" value="" style="swimlane;startSize=0;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="385" width="500" height="85" as="geometry">
+            <mxRectangle x="210" y="385" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-27" value="&lt;span style=&quot;font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;调取代偿计算(通过策略模式，实现资方-特殊化代偿规则的独立化)&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WK9klfIUf86y4-FWAi0W-26">
+          <mxGeometry x="200" y="15" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-30" value="try-catch异常&#xa;捕获该模块，异常&#xa;的话，log-error出&#xa;来，继续往下进行" style="label;fontStyle=0;strokeColor=default;fillColor=none;align=left;verticalAlign=top;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=img/clipart/Gear_128x128.png;fontSize=12;dashed=1;dashPattern=1 1;" vertex="1" parent="WK9klfIUf86y4-FWAi0W-26">
+          <mxGeometry x="360" y="5" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-32" target="WK9klfIUf86y4-FWAi0W-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-32" value="填充代偿其他信息" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-34" target="WK9klfIUf86y4-FWAi0W-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-34" value="生成代偿主对象" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-36" target="WK9klfIUf86y4-FWAi0W-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-36" value="如果未有异常发生，生成代偿金额明细" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="WK9klfIUf86y4-FWAi0W-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-40" target="WK9klfIUf86y4-FWAi0W-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-40" value="processBeforeInit钩子方法，在各自实现类中，可进行数据入库前的再加工" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-42" target="WK9klfIUf86y4-FWAi0W-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-42" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;入库：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、入库主表&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、未异常则入库金额明细表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-44" target="WK9klfIUf86y4-FWAi0W-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-44" value="MQ推送代偿数据给fund" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-46" target="WK9klfIUf86y4-FWAi0W-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-46" value="根据累积代偿规则计算获得提前代偿数据集合" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-48" target="WK9klfIUf86y4-FWAi0W-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-48" value="&lt;span&gt;根据连续代偿规则计算获得提前代偿数据集合&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-50" target="WK9klfIUf86y4-FWAi0W-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-50" target="WK9klfIUf86y4-FWAi0W-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-50" value="数据填充" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="504" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-56" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、状态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、代偿时间等信息&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;dashed=1;dashPattern=1 1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="690" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-56" target="WK9klfIUf86y4-FWAi0W-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="targetPoint" />
+            <mxPoint x="660" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="800" />
+              <mxPoint x="790" y="320" />
+              <mxPoint x="370" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-80" value="存在数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="WK9klfIUf86y4-FWAi0W-79">
+          <mxGeometry x="-0.8423" y="-3" relative="1" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="WK9klfIUf86y4-FWAi0W-59" target="WK9klfIUf86y4-FWAi0W-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-83" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="WK9klfIUf86y4-FWAi0W-82">
+          <mxGeometry x="-0.1158" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-59" value="根据规则配置，是否包含提前结清进行筛选。" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-73" value="" style="swimlane;startSize=0;fontSize=12;align=center;fillColor=none;strokeColor=#d6b656;shadow=0;gradientColor=#2EFFE3;labelBackgroundColor=#CEFF2B;labelBorderColor=none;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;glass=0;sketch=0;strokeWidth=7;perimeterSpacing=9;swimlaneLine=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="305" width="600" height="355" as="geometry">
+            <mxRectangle x="210" y="385" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-38" value="钉钉监控报警error日志，及时发现进行人为接入处理。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;dashed=1;dashPattern=1 1;fontSize=12;align=center;" vertex="1" parent="WK9klfIUf86y4-FWAi0W-73">
+          <mxGeometry x="450" y="25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-78" value="计算主逻辑" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CFFF91;" vertex="1" parent="WK9klfIUf86y4-FWAi0W-73">
+          <mxGeometry x="20" y="15" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-65" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=12;strokeColor=#000099;align=left;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="20" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-70" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 二级规则： 整笔代偿规则" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 1;fontSize=12;strokeColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-81" value="end" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-86" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; 一级规则： 当期代偿规则" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 1;fontSize=12;strokeColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WK9klfIUf86y4-FWAi0W-87" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=12;strokeColor=#D296FF;align=left;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="20" height="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
