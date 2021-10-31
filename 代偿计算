@@ -1,1 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T14:37:21.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.0" etag="7qt97nC34iKPExTkY2AN" type="github"><diagram id="YrA1E7yhvnDKrVpEg9ic">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-31T15:30:08.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="PZypwEL0nSG4ip56NcdS" version="15.6.0" type="github">
+  <diagram id="YrA1E7yhvnDKrVpEg9ic" name="Page-1">
+    <mxGraphModel dx="946" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-1" target="cqKQ8mI_r5Rsa3TzNmJK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-1" value="代偿timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-2" target="cqKQ8mI_r5Rsa3TzNmJK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-2" value="根据代偿规则配置，《分页》获取已到代偿日的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-4" value="去除已代偿的数据，余下的发送《代偿计算mq》" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-7" target="cqKQ8mI_r5Rsa3TzNmJK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-7" value="手动补偿代偿timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-9" target="cqKQ8mI_r5Rsa3TzNmJK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-9" value="根据xdiamond，《分页》获取已到代偿日的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-10" value="去除已代偿的数据，余下的发送《代偿计算mq》" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-11" target="cqKQ8mI_r5Rsa3TzNmJK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-11" value="代偿实时计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-21" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-17">
+          <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-14" target="cqKQ8mI_r5Rsa3TzNmJK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-14" value="校验代偿表" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-18" value="直接返回" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-20" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-22" target="cqKQ8mI_r5Rsa3TzNmJK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-27" value="到期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-26">
+          <mxGeometry x="-0.2667" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-36" value="未到期" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-22" value="判断资产是否到期" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-25" target="cqKQ8mI_r5Rsa3TzNmJK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-25" value="&lt;span&gt;如果是实时接口触发，则发送落库mq&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-37" target="cqKQ8mI_r5Rsa3TzNmJK-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-40" value="触发了整笔" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-39">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-37" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;回溯1-n，判断是否触发整笔代偿&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-41" target="cqKQ8mI_r5Rsa3TzNmJK-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="540" />
+              <mxPoint x="990" y="440" />
+              <mxPoint x="1000" y="440" />
+              <mxPoint x="1000" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-41" value="如果是实时接口触发，则发送触发整笔代偿的那个期次的落库mq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-46" target="cqKQ8mI_r5Rsa3TzNmJK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-46" value="落库mq业务&lt;br&gt;--根据xDiamond配置fundCode下才发送" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="410" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1210" y="550" />
+              <mxPoint x="1210" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-55" value="设置成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-54">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cqKQ8mI_r5Rsa3TzNmJK-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="560" as="sourcePoint" />
+            <mxPoint x="1105" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-58" value="设置失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-57">
+          <mxGeometry x="-0.175" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-51" value="通过redis：set xx-loanNo 1 EX 600 NX" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-59" value="&lt;span&gt;不发送落库mq&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-61" target="cqKQ8mI_r5Rsa3TzNmJK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-61" value="代偿计算完成后，会删除该key。&lt;br&gt;此这样做的目的是防止重复发送落库mq" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="785" y="580" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-63" target="cqKQ8mI_r5Rsa3TzNmJK-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-66" value="查询的到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-65">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cqKQ8mI_r5Rsa3TzNmJK-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-73" value="未查询到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cqKQ8mI_r5Rsa3TzNmJK-70">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-63" value="查询代偿库" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cqKQ8mI_r5Rsa3TzNmJK-71" value="发送《代偿落库计算mq》" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="360" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
