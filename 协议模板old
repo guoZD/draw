@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T09:52:12.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="VDM_oi-5458nUgLJBxlL" version="15.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T16:41:02.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="tBwpSwwQGhDUqhVOAjrA" version="15.6.0" type="github">
   <diagram id="LUJGXXXzdzpoH-hlzG4r" name="Page-1">
-    <mxGraphModel dx="1773" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-14" target="BeYLIMbuatT3iyhyT-fa-16">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BeYLIMbuatT3iyhyT-fa-14" target="BeYLIMbuatT3iyhyT-fa-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-14" value="新增协议模板入口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-14" value="新增协议模板入口" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-16">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BeYLIMbuatT3iyhyT-fa-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-16" value="复制word内容到富文本中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-16" value="复制word内容到富文本中" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-18" target="BeYLIMbuatT3iyhyT-fa-19">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BeYLIMbuatT3iyhyT-fa-18" target="BeYLIMbuatT3iyhyT-fa-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-18" value="保存" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-18" value="保存" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-19" value="发布" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-19" value="发布" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-23" target="BeYLIMbuatT3iyhyT-fa-18">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BeYLIMbuatT3iyhyT-fa-23" target="BeYLIMbuatT3iyhyT-fa-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-21" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BeYLIMbuatT3iyhyT-fa-20">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-21" value="通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BeYLIMbuatT3iyhyT-fa-20" vertex="1" connectable="0">
           <mxGeometry x="-0.1706" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-23" target="BeYLIMbuatT3iyhyT-fa-25">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BeYLIMbuatT3iyhyT-fa-23" target="BeYLIMbuatT3iyhyT-fa-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-23" value="&lt;span&gt;人工校验核对富文本内容和word内容&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-23" value="&lt;span&gt;人工校验核对富文本内容和word内容&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-105" y="400" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BeYLIMbuatT3iyhyT-fa-25">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="BeYLIMbuatT3iyhyT-fa-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="350" as="targetPoint" />
             <Array as="points">
@@ -49,10 +49,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-25" value="调整富文本内容" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-25" value="调整富文本内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="420" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeYLIMbuatT3iyhyT-fa-28" value="变更前的协议模板录入" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BeYLIMbuatT3iyhyT-fa-28" value="变更前的协议模板录入" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-130" y="20" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
