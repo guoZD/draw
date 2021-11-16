@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T13:00:11.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="I9IPnbWYXDXcTyFWs38t" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T11:40:41.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="CiXqt986OwtMaSeAK0ZQ" version="15.6.8" type="github">
   <diagram id="2cHh3cX-X7bpva9qFIhf" name="Page-1">
     <mxGraphModel dx="2893" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,11 +82,13 @@
         <mxCell id="qH2bkZvnnAduBcmhsxNY-53" value="&lt;span style=&quot;font-weight: 700&quot;&gt;复制历史对账汇总的确认信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="920" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qH2bkZvnnAduBcmhsxNY-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qH2bkZvnnAduBcmhsxNY-55" target="qH2bkZvnnAduBcmhsxNY-49">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qH2bkZvnnAduBcmhsxNY-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qH2bkZvnnAduBcmhsxNY-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qH2bkZvnnAduBcmhsxNY-55" value="排除 线下处理忽略差异、调整至下一账期的明细数据" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="710" width="110" height="110" as="geometry" />
+          <mxGeometry x="65" y="805" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
