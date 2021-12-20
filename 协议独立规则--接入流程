@@ -1,69 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T11:20:19.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="gS0Sim8RZYZDsddN7-WB" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T08:04:58.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="socLQLOxnLDogpNbD595" version="15.9.6" type="github">
   <diagram id="ac2TG9MI1FsXDq3RPsoH" name="Page-1">
-    <mxGraphModel dx="2875" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-7" target="ZxFDyN5Hk7hFdqm_wRwX-8">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-7" target="ZxFDyN5Hk7hFdqm_wRwX-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-7" value="三方新接入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-7" value="三方新接入" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="180" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-8" target="ZxFDyN5Hk7hFdqm_wRwX-10">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-8" target="ZxFDyN5Hk7hFdqm_wRwX-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-8" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;app_system添加三方记录&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-8" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;app_system添加三方记录&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-10" target="ZxFDyN5Hk7hFdqm_wRwX-12">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-10" target="ZxFDyN5Hk7hFdqm_wRwX-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-10" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;app_config&lt;/span&gt;、contract_agreement_type配置表，&lt;br&gt;会配置：7种场景、协议类别、协议类型、触发点、预览页面、fund合同类型&lt;br&gt;1、通过mis手工配置&lt;br&gt;2、或者开发人员直接改数据库" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-10" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;app_config&lt;/span&gt;、contract_agreement_type配置表，&lt;br&gt;会配置：7种场景、协议类别、协议类型、触发点、预览页面、fund合同类型&lt;br&gt;1、通过mis手工配置&lt;br&gt;2、或者开发人员直接改数据库" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="55" y="410" width="265" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-12" target="ZxFDyN5Hk7hFdqm_wRwX-21">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-12" target="ZxFDyN5Hk7hFdqm_wRwX-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、mis录入填充项&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contract_field_dict&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、也可以通过接口进行填充项的更删改查&lt;/div&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、mis录入填充项&lt;/span&gt;&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;contract_field_dict&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、也可以通过接口进行填充项的更删改查&lt;/div&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="57.5" y="570" width="245" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-16" target="ZxFDyN5Hk7hFdqm_wRwX-12">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-16" target="ZxFDyN5Hk7hFdqm_wRwX-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-16" value="mis分菜单权限和数据权限。&lt;br&gt;登录的用户也就确定了它的这2种权限，即属于哪个三方" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-16" value="mis分菜单权限和数据权限。&lt;br&gt;登录的用户也就确定了它的这2种权限，即属于哪个三方" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-180" y="510" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-18" value="接口参考e签宝" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="350" y="520" width="190" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-21" target="ZxFDyN5Hk7hFdqm_wRwX-25">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-21" target="ZxFDyN5Hk7hFdqm_wRwX-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-21" value="录入协议模板：填充项插入、电子签章插入" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-21" value="录入协议模板：填充项插入、电子签章插入" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="700" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-23" target="ZxFDyN5Hk7hFdqm_wRwX-21">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-23" target="ZxFDyN5Hk7hFdqm_wRwX-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-23" value="mis表格需要前端支持动态配置，而不是写死的表格样式。目前陈亮已在开发中" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-23" value="mis表格需要前端支持动态配置，而不是写死的表格样式。目前陈亮已在开发中" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-25">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-25" value="配置使用场景" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-25" value="配置使用场景" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-29" target="ZxFDyN5Hk7hFdqm_wRwX-25">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZxFDyN5Hk7hFdqm_wRwX-29" target="ZxFDyN5Hk7hFdqm_wRwX-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-29" value="预览、生成、上传、下载、签章" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-29" value="预览、生成、上传、下载、签章" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-150" y="795" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-31" value="配置协议模板结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="ZxFDyN5Hk7hFdqm_wRwX-31" value="配置协议模板结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="120" y="890" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
