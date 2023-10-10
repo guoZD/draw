@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T09:58:17.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KDHGgFneh4mObB6B0yql" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T06:26:30.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="aZJ54smvs33ihq2aPEe3" version="21.6.8" type="github">
   <diagram name="第 1 页" id="jHazQG9H8V7y6jYP9oEP">
     <mxGraphModel dx="2074" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,65 @@
         </mxCell>
         <mxCell id="Z4pxwOTtd0ejvy9zA-O6-36" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" vertex="1" parent="1">
           <mxGeometry x="509" y="190" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="630" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Z4pxwOTtd0ejvy9zA-O6-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1074" y="585" as="sourcePoint" />
+            <mxPoint x="1260" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-43" value="已代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-42">
+          <mxGeometry x="-0.3212" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-48" value="大于宽限期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-47">
+          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49" target="Z4pxwOTtd0ejvy9zA-O6-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-49" value="逾期天数&amp;lt;=宽限期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="984" y="435" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-50" target="Z4pxwOTtd0ejvy9zA-O6-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-50" value="通用计算公式：&lt;br&gt;ROUND(当期应还本金 * 逾期天数 * 逾期日利率, 2)&#x9;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="944" y="670" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-51" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="390" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-52" target="Z4pxwOTtd0ejvy9zA-O6-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-55" value="未代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-54">
+          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-52" value="是否已代偿" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="994" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-58" value="新增一个接口：&lt;br&gt;新增2个返参：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、试算的逾期利息；&lt;/span&gt;&lt;/div&gt;2、是否宽限期内并且未代偿；true=宽限期内并且未代偿；false=反之。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="370" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-59" value="false；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=null" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="435" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-60" value="true；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=大致公式金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="670" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
