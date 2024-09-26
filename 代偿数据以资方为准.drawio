@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="zyJa1Zah5acct0IV7Oil">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U38TajF6nqNU7v4l2iEq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-2" target="U38TajF6nqNU7v4l2iEq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-2" value="&lt;span&gt;fund上传 【代偿数据】文件&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-5" target="U38TajF6nqNU7v4l2iEq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-5" value="&lt;span&gt;timer补偿&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-7" target="U38TajF6nqNU7v4l2iEq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-7" value="mq接收消费" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-8" value="发送mq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-9" value="发送mq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-11" value="文件解析并入库到target表" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-20" target="U38TajF6nqNU7v4l2iEq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-20" value="读取【文件解析】配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-22" value="入库代偿表逻辑" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-25" value="文件解析入库代偿" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="490" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-23" value="读取【代偿规则】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U38TajF6nqNU7v4l2iEq-25">
+          <mxGeometry x="20" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U38TajF6nqNU7v4l2iEq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="U38TajF6nqNU7v4l2iEq-23" target="U38TajF6nqNU7v4l2iEq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
