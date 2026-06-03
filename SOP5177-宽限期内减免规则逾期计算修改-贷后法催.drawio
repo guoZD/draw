@@ -1,163 +1,216 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T06:26:30.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="aZJ54smvs33ihq2aPEe3" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="jHazQG9H8V7y6jYP9oEP">
-    <mxGraphModel dx="2074" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="420" y="180" width="334" height="430" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry height="430" width="334" x="420" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-1">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-3" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-1" value="支持宽限期的特殊逾期计算接口" style="ellipse;whiteSpace=wrap;html=1;fillColor=#66FFB3;" vertex="1" parent="1">
-          <mxGeometry x="220" y="70" width="120" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#66FFB3;" value="支持宽限期的特殊逾期计算接口" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-4" target="Z4pxwOTtd0ejvy9zA-O6-5">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-6" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-4" value="计算滞纳金&lt;br&gt;（不变）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算滞纳金&lt;br&gt;（不变）" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-5" target="Z4pxwOTtd0ejvy9zA-O6-7">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-8" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-5" value="计算逾期利息&lt;br&gt;（改动）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算逾期利息&lt;br&gt;（改动）" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-7" target="Z4pxwOTtd0ejvy9zA-O6-9">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-10" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-7" value="计算逾期服务费&lt;br&gt;（不变）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算逾期服务费&lt;br&gt;（不变）" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-9" target="Z4pxwOTtd0ejvy9zA-O6-12">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-13" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-9" value="计算逾期担保服务费&lt;br&gt;（不变）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算逾期担保服务费&lt;br&gt;（不变）" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-12" target="Z4pxwOTtd0ejvy9zA-O6-14">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-15" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-12" value="等等&lt;br&gt;（不变）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="790" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="等等&lt;br&gt;（不变）" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-14" value="汇总结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="900" width="120" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" value="汇总结束" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-17" value="原逾期利息计算逻辑&lt;br&gt;（不变）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="624" y="315" width="120" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="原逾期利息计算逻辑&lt;br&gt;（不变）" vertex="1">
+          <mxGeometry height="60" width="120" x="624" y="315" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-19">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-22" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="524" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-23" value="未代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-22">
-          <mxGeometry x="-0.1714" y="-1" relative="1" as="geometry">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-23" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="未代偿" vertex="1">
+          <mxGeometry relative="1" x="-0.1714" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-19" target="Z4pxwOTtd0ejvy9zA-O6-17">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-29" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Z4pxwOTtd0ejvy9zA-O6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-30" value="已代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-29">
-          <mxGeometry x="-0.3212" y="2" relative="1" as="geometry">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-30" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="已代偿" vertex="1">
+          <mxGeometry relative="1" x="-0.3212" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-19" value="是否已代偿" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="484" y="230" width="80" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否已代偿" vertex="1">
+          <mxGeometry height="80" width="80" x="484" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-24" target="Z4pxwOTtd0ejvy9zA-O6-25">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-26" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-26">
-          <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-27" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0909" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-24" target="Z4pxwOTtd0ejvy9zA-O6-17">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-28" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Z4pxwOTtd0ejvy9zA-O6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-31" value="大于宽限期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-28">
-          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-31" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="大于宽限期" vertex="1">
+          <mxGeometry relative="1" x="-0.3333" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-24" value="逾期天数&amp;lt;=宽限期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="375" width="100" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="逾期天数&amp;lt;=宽限期" vertex="1">
+          <mxGeometry height="80" width="100" x="474" y="375" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-25" value="通用计算公式：&lt;br&gt;ROUND(当期应还本金 * 逾期天数 * 逾期日利率, 2)&#x9;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434" y="510" width="180" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-25" parent="1" style="whiteSpace=wrap;html=1;" value="通用计算公式：&lt;br&gt;ROUND(当期应还本金 * 逾期天数 * 逾期日利率, 2)&#x9;" vertex="1">
+          <mxGeometry height="80" width="180" x="434" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-34" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="370" width="70" height="60" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-34" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="70" x="344" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-36" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" vertex="1" parent="1">
-          <mxGeometry x="509" y="190" width="30" height="40" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-36" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="509" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="920" y="360" width="630" height="410" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry height="560" width="650" x="920" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Z4pxwOTtd0ejvy9zA-O6-59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1074" y="585" as="sourcePoint" />
-            <mxPoint x="1260" y="505" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-43" value="已代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-42">
-          <mxGeometry x="-0.3212" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-47" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1200" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-48" value="大于宽限期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-47">
-          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-48" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="大于宽限期" vertex="1">
+          <mxGeometry relative="1" x="-0.3333" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49" target="Z4pxwOTtd0ejvy9zA-O6-52">
+        <mxCell id="b-RugxCACrMjUdx38Zba-22" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-60" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-49" value="逾期天数&amp;lt;=宽限期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="984" y="435" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-50" target="Z4pxwOTtd0ejvy9zA-O6-60">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-50" value="通用计算公式：&lt;br&gt;ROUND(当期应还本金 * 逾期天数 * 逾期日利率, 2)&#x9;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="944" y="670" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-51" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" vertex="1" parent="1">
-          <mxGeometry x="1019" y="390" width="30" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-52" target="Z4pxwOTtd0ejvy9zA-O6-50">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-55" value="未代偿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z4pxwOTtd0ejvy9zA-O6-54">
-          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+        <mxCell id="b-RugxCACrMjUdx38Zba-23" connectable="0" parent="b-RugxCACrMjUdx38Zba-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="宽限期内" vertex="1">
+          <mxGeometry relative="1" x="-0.2444" y="-4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-52" value="是否已代偿" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="994" y="545" width="80" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-49" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="逾期天数&amp;lt;=宽限期" vertex="1">
+          <mxGeometry height="80" width="100" x="984" y="435" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-58" value="新增一个接口：&lt;br&gt;新增2个返参：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、试算的逾期利息；&lt;/span&gt;&lt;/div&gt;2、是否宽限期内并且未代偿；true=宽限期内并且未代偿；false=反之。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF00;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="370" width="200" height="85" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-61" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;dashed=1;" target="Z4pxwOTtd0ejvy9zA-O6-60" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-59" value="false；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=null" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="435" width="120" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-50" parent="1" style="whiteSpace=wrap;html=1;" value="通用计算公式：&lt;br&gt;ROUND(当期应还本金 * 逾期天数 * 逾期日利率, 2)&#x9;" vertex="1">
+          <mxGeometry height="80" width="180" x="944" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-60" value="true；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=大致公式金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="670" width="130" height="80" as="geometry" />
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-51" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#FF8FC7;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="1019" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-14" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Z4pxwOTtd0ejvy9zA-O6-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-15" connectable="0" parent="b-RugxCACrMjUdx38Zba-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="未代偿" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-17" edge="1" parent="1" source="Z4pxwOTtd0ejvy9zA-O6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b-RugxCACrMjUdx38Zba-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-18" connectable="0" parent="b-RugxCACrMjUdx38Zba-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="已代偿" vertex="1">
+          <mxGeometry relative="1" x="-0.56" y="3" as="geometry">
+            <mxPoint x="10" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-52" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否已代偿" vertex="1">
+          <mxGeometry height="80" width="80" x="994" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-58" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFF00;align=left;" value="新增一个接口：&lt;br&gt;新增2个返参：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、试算的逾期利息；&lt;/span&gt;&lt;/div&gt;2、是否宽限期内并且未代偿；true=宽限期内并且未代偿；false=反之。" vertex="1">
+          <mxGeometry height="85" width="200" x="1350" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Z4pxwOTtd0ejvy9zA-O6-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="true；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=通用计算公式进行试算" vertex="1">
+          <mxGeometry height="80" width="130" x="969" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-8" edge="1" parent="1" source="b-RugxCACrMjUdx38Zba-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b-RugxCACrMjUdx38Zba-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-26" connectable="0" parent="b-RugxCACrMjUdx38Zba-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.075" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-19" edge="1" parent="1" source="b-RugxCACrMjUdx38Zba-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="b-RugxCACrMjUdx38Zba-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-25" connectable="0" parent="b-RugxCACrMjUdx38Zba-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.4222" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="逾期利息从资方获取 &amp;amp; DLB资方" vertex="1">
+          <mxGeometry height="80" width="100" x="1200" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Z4pxwOTtd0ejvy9zA-O6-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="510" />
+              <mxPoint x="1430" y="640" />
+            </Array>
+            <mxPoint x="1431" y="510" as="sourcePoint" />
+            <mxPoint x="1050" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-10" connectable="0" parent="b-RugxCACrMjUdx38Zba-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="=0" vertex="1">
+          <mxGeometry relative="1" x="-0.9024" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-20" edge="1" parent="1" source="b-RugxCACrMjUdx38Zba-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="b-RugxCACrMjUdx38Zba-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="410" />
+              <mxPoint x="1320" y="410" />
+              <mxPoint x="1320" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-21" connectable="0" parent="b-RugxCACrMjUdx38Zba-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;gt;0" vertex="1">
+          <mxGeometry relative="1" x="-0.496" y="4" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="从资方获取的逾期利息是否=0" vertex="1">
+          <mxGeometry height="80" width="100" x="1380" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="b-RugxCACrMjUdx38Zba-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="false；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;逾期利息=null" vertex="1">
+          <mxGeometry height="80" width="120" x="1140" y="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
